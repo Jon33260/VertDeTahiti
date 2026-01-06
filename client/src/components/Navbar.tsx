@@ -2,8 +2,8 @@ import { useState } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 import useAuth from "../services/AuthContext";
 import "../styles/navbar.css";
-import LogoDark from "../assets/images/Logo_AFAC_dark.png";
-import LogoLight from "../assets/images/Logo_AFAC_light.png";
+
+import hibiscus from "../assets/images/hibiscus-lvdt.jpg";
 import { useDarkTheme } from "../services/DarkThemeContext";
 import { Logout } from "../services/requests";
 import SvgIcons from "./SvgIcons";
@@ -93,9 +93,9 @@ export default function Navbar() {
 
         <NavLink to="/" className="logo">
           {darkTheme ? (
-            <img src={LogoDark} alt="AFAC Logo" />
+            <img src={hibiscus} alt="LVDT Logo" />
           ) : (
-            <img src={LogoLight} alt="AFAC Logo" />
+            <img src={hibiscus} alt="LVDT Logo" />
           )}
         </NavLink>
         <ul className={`link-nav ${showLinks ? "show" : ""}`}>
