@@ -62,7 +62,7 @@ CREATE TABLE artwork (
 INSERT INTO artwork(title, description, picture, category_id, user_id, created_at) VALUES
 ("Le chaudron", "Geoffroy Guichard", "chaudron.jpg", 1, 3, '2023-01-15 10:30:00'),
 ("Vue de la pelouse", "Une belle vue des tribunes depuis la pelouse", "pelouse.jpg", 1, 8, '2023-02-20 14:45:00'),
-("Geoffroy Guichard", "Le chaudron de l'extérieur", "vu-extérieur.jpg", 1, 6, '2023-03-10 09:15:00'),
+("Geoffroy Guichard", "Le chaudron de l'extérieur", "vu-exterieur.jpg", 1, 6, '2023-03-10 09:15:00'),
 ("Ambiance Kop Nord", "L'ambiance des Magics Fans pendant un match", "ambiance-match.jpg", 1, 2, '2023-04-05 16:20:00'),
 ("Un petit jeu de mots", "Pas mal", "humourvert-1.jpg", 5, 9, '2023-05-12 11:30:00'),
 ("Horneland", "Coach Horneland stop ou encore ?", "horneland.jpg", 4, 5, '2026-01-06 13:00:00'),
