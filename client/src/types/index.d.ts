@@ -3,6 +3,7 @@ interface Artwork {
   title: string;
   description: string;
   picture: string;
+  video: string | null; // ← nouvelle propriété
   category: string;
   category_id: number;
   user_id: number;

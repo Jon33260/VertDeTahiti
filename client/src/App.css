@@ -39,12 +39,12 @@ html {
   padding: 0;
   box-sizing: border-box;
   font-family: var(--font-text);
-  color: var(--font-color);
-  background-color: var(--background-color);
+
   transition: 0.5s;
 }
 
 body {
+  background-color: var(--background-color);
   font-family: var(--font-text);
   color: var(--font-color);
 }
@@ -55,5 +55,4 @@ body {
   left: 0;
   width: 100%;
   z-index: 1000;
-  background-color: var(--background-color);
 }
